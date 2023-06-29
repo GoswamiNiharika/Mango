@@ -11,6 +11,7 @@
 	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
 	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.8" />
 	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	  <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
 	  <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
@@ -22,10 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <Compile Update="Resources\ApiUrlResource.Designer.cs">
+      <DependentUpon>ApiUrlResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
     <Compile Update="Resources\AppSettingResource.Designer.cs">
       <DependentUpon>AppSettingResource.resx</DependentUpon>
       <DesignTime>True</DesignTime>
@@ -36,15 +38,28 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
     </Compile>
+    <Compile Update="Resources\ServiceUrlsResource.Designer.cs">
+      <DependentUpon>ServiceUrlsResource.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Update="Resources\ApiUrlResource.resx">
+      <LastGenOutput>ApiUrlResource.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Resources\AppSettingResource.resx">
       <LastGenOutput>AppSettingResource.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Resources\NotificationMessageResource.resx">
       <LastGenOutput>NotificationMessageResource.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ServiceUrlsResource.resx">
+      <LastGenOutput>ServiceUrlsResource.Designer.cs</LastGenOutput>
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>

@@ -61,29 +61,38 @@ namespace Mango.Services.ShoppingCartAPI.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Product Created Successfully....
+        ///   Looks up a localized string similar to Coupon added Successfully....
         /// </summary>
-        public static string ProductCreated {
+        public static string CouponAdded {
             get {
-                return ResourceManager.GetString("ProductCreated", resourceCulture);
+                return ResourceManager.GetString("CouponAdded", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Product Deleted Successfully....
+        ///   Looks up a localized string similar to Coupon removed Successfully....
         /// </summary>
-        public static string ProductDeleted {
+        public static string CouponRemoved {
             get {
-                return ResourceManager.GetString("ProductDeleted", resourceCulture);
+                return ResourceManager.GetString("CouponRemoved", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Product Updated Successfully....
+        ///   Looks up a localized string similar to Product added to Cart Successfully....
         /// </summary>
-        public static string ProductUpdated {
+        public static string ProductAdded {
             get {
-                return ResourceManager.GetString("ProductUpdated", resourceCulture);
+                return ResourceManager.GetString("ProductAdded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Product removed from Cart Successfully....
+        /// </summary>
+        public static string ProductRemoved {
+            get {
+                return ResourceManager.GetString("ProductRemoved", resourceCulture);
             }
         }
     }

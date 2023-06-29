@@ -70,6 +70,15 @@ namespace Mango.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to /api/Cart/ApplyCoupon.
+        /// </summary>
+        public static string ApplyCoupon {
+            get {
+                return ResourceManager.GetString("ApplyCoupon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to /api/Auth/AssignRole.
         /// </summary>
         public static string Auth_AssignRole {
@@ -115,11 +124,47 @@ namespace Mango.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to /api/Cart/GetCart/.
+        /// </summary>
+        public static string GetCart {
+            get {
+                return ResourceManager.GetString("GetCart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to /api/Product/.
         /// </summary>
         public static string Product {
             get {
                 return ResourceManager.GetString("Product", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /api/Cart/CartRemove.
+        /// </summary>
+        public static string RemoveCart {
+            get {
+                return ResourceManager.GetString("RemoveCart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /api/Cart/RemoveCoupon.
+        /// </summary>
+        public static string RemoveCoupon {
+            get {
+                return ResourceManager.GetString("RemoveCoupon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to /api/Cart/CartUpsert.
+        /// </summary>
+        public static string UpsertCart {
+            get {
+                return ResourceManager.GetString("UpsertCart", resourceCulture);
             }
         }
     }

@@ -117,13 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ProductCreated" xml:space="preserve">
-    <value>Product Created Successfully...</value>
+  <data name="CouponAdded" xml:space="preserve">
+    <value>Coupon added Successfully...</value>
   </data>
-  <data name="ProductDeleted" xml:space="preserve">
-    <value>Product Deleted Successfully...</value>
+  <data name="CouponRemoved" xml:space="preserve">
+    <value>Coupon removed Successfully...</value>
   </data>
-  <data name="ProductUpdated" xml:space="preserve">
-    <value>Product Updated Successfully...</value>
+  <data name="ProductAdded" xml:space="preserve">
+    <value>Product added to Cart Successfully...</value>
+  </data>
+  <data name="ProductRemoved" xml:space="preserve">
+    <value>Product removed from Cart Successfully...</value>
   </data>
 </root>

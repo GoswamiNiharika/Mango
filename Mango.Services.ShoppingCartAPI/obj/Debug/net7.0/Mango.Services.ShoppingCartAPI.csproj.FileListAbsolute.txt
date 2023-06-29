@@ -80,3 +80,6 @@ C:\Users\niharika.goswami\source\repos\Mango\Mango.Services.ShoppingCartAPI\obj\
 C:\Users\niharika.goswami\source\repos\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.pdb
 C:\Users\niharika.goswami\source\repos\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.genruntimeconfig.cache
 C:\Users\niharika.goswami\source\repos\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\ref\Mango.Services.ShoppingCartAPI.dll
+C:\Users\niharika.goswami\source\repos\Mango\Mango.Services.ShoppingCartAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\niharika.goswami\source\repos\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.Resources.ApiUrlResource.resources
+C:\Users\niharika.goswami\source\repos\Mango\Mango.Services.ShoppingCartAPI\obj\Debug\net7.0\Mango.Services.ShoppingCartAPI.Resources.ServiceUrlsResource.resources

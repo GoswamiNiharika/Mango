@@ -120,6 +120,9 @@
   <data name="AccessDenied" xml:space="preserve">
     <value>/Auth/AccessDenied</value>
   </data>
+  <data name="ApplyCoupon" xml:space="preserve">
+    <value>/api/Cart/ApplyCoupon</value>
+  </data>
   <data name="Auth_AssignRole" xml:space="preserve">
     <value>/api/Auth/AssignRole</value>
   </data>
@@ -135,7 +138,19 @@
   <data name="CouponByCode" xml:space="preserve">
     <value>/api/Coupon/GetByCode/</value>
   </data>
+  <data name="GetCart" xml:space="preserve">
+    <value>/api/Cart/GetCart/</value>
+  </data>
   <data name="Product" xml:space="preserve">
     <value>/api/Product/</value>
+  </data>
+  <data name="RemoveCart" xml:space="preserve">
+    <value>/api/Cart/CartRemove</value>
+  </data>
+  <data name="RemoveCoupon" xml:space="preserve">
+    <value>/api/Cart/RemoveCoupon</value>
+  </data>
+  <data name="UpsertCart" xml:space="preserve">
+    <value>/api/Cart/CartUpsert</value>
   </data>
 </root>

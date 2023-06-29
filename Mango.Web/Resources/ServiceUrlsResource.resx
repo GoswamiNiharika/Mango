@@ -120,6 +120,9 @@
   <data name="AuthApi" xml:space="preserve">
     <value>ServiceUrls:AuthAPI</value>
   </data>
+  <data name="CartApi" xml:space="preserve">
+    <value>ServiceUrls:CartAPI</value>
+  </data>
   <data name="CouponApi" xml:space="preserve">
     <value>ServiceUrls:CouponAPI</value>
   </data>

@@ -70,6 +70,15 @@ namespace Mango.Web.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ServiceUrls:CartAPI.
+        /// </summary>
+        public static string CartApi {
+            get {
+                return ResourceManager.GetString("CartApi", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ServiceUrls:CouponAPI.
         /// </summary>
         public static string CouponApi {
